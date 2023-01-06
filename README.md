@@ -1,15 +1,14 @@
 <h1 align="center"> Hello Fashion Website</h1>
 
-<p align="center"><project-description></p>
-<p align="center">Shop Hello for Women's, Men's, Kids' clothing.</p>
+<p align="center"><Shop Hello for Women's, Men's, Kids' clothing.></p>
 
 ## Links
 
-- [Repo](https://github.com/Rohit19060/<project-name> "<Hello Fashion Website> Repo")
+- [Repo](https://github.com/yuki-o1o5/Hello-fashion-website "<Hello Fashion Website> Repo")
 
 ## Screenshots
 
-![Home Page](/screenshots/1.png "Home Page")
+![Home Page](/assets/images/screenshot1.png "Home Page")
 
 ## Built With
 
