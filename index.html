@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tochigiysa</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Abril+Fatface&family=Belleza&family=Federo&family=Italiana&family=Questrial&family=Raleway&family=Roboto&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/assets/js/index.js"></script>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <div class="title-container">
+            <i class="fa-sharp fa-solid fa-face-grin-stars fa-xl"></i>
+            <a class="navbar-brand" href="#">Hello</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Hello
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#collections">Winter Collections</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#location">Our Location</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="/assets/images/purple-tshirt.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/assets/images/setup.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/assets/images/sergi-dolcet-escrig-GTntIMKwjV8-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <main>
+      <section id="collections">
+        <div class="sub-nav">
+          <h4>Winter<span> Collections </span></h4>
+          <button class="more-botton">More</button>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id hic
+          excepturi aliquid et tempora totam perferendis error optio libero
+          officia quasi molestiae incidunt, voluptates, non, itaque dicta vitae
+          cumque dolor.
+        </p>
+        <div class="new-arrival">
+          <h5>New Arrival</h5>
+          <div class="new-arrival-imgs">
+            <img
+              class="new-arrival-img"
+              src="./assets/images/black-tshirt.jpg"
+              alt=""
+            />
+            <img
+              class="new-arrival-img"
+              src="/assets/images/green-jacket.jpg"
+              alt=""
+            />
+            <img
+              class="new-arrival-img"
+              src="./assets/images/yellow-jacket.jpg"
+              alt=""
+            />
+            <img
+              class="new-arrival-img hiddenimg"
+              src="./assets/images/brown-jacket.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="collections-img"></div>
+      </section>
+      <section id="categories">
+        <div class="sub-nav">
+          <h4>Categories</h4>
+          <button class="more-botton">More</button>
+        </div>
+        <div class="tab">
+          <button class="tablinks" onclick="openGender(event, 'women')">
+            WOMEN
+          </button>
+          <button class="tablinks" onclick="openGender(event, 'men')">
+            MEN
+          </button>
+          <button class="tablinks" onclick="openGender(event, 'kids')">
+            KIDS
+          </button>
+        </div>
+
+        <div id="women" class="tabcontent">
+          <div class="card-container">
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/pink-bottom.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div product-detail>
+                  <p class="card-text">Pink Pants</p>
+                  <p>$99.00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/white-tshirt.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">White T-shirt</p>
+                <p>$49.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/yellow-jacket.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Yellow Jacket</p>
+                <p>$225.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/blue-jeans.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Blue Jeans</p>
+                <p>$119.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/black-tshirt2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Black T-shirt</p>
+                <p>$49.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/brown-jacket.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Brown Jacket</p>
+                <p>$215.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="men" class="tabcontent">
+          <div class="card-container">
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/yellow-jacket.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div product-detail>
+                  <p class="card-text">Pink Pants</p>
+                  <p>$99.00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/white-tshirt.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">White T-shirt</p>
+                <p>$49.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/pink-bottom.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Yellow Jacket</p>
+                <p>$225.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/black-tshirt2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Blue Jeans</p>
+                <p>$119.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/blue-jeans.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Black T-shirt</p>
+                <p>$49.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/brown-jacket.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Brown Jacket</p>
+                <p>$215.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="kids" class="tabcontent">
+          <div class="card-container">
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/white-tshirt.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div product-detail>
+                  <p class="card-text">Pink Pants</p>
+                  <p>$99.00</p>
+                </div>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/pink-bottom.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">White T-shirt</p>
+                <p>$49.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/yellow-jacket.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Yellow Jacket</p>
+                <p>$225.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/brown-jacket.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Blue Jeans</p>
+                <p>$119.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/black-tshirt2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Black T-shirt</p>
+                <p>$49.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+            <div class="card col-6 col-md-4">
+              <img
+                src="./assets/images/blue-jeans.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Brown Jacket</p>
+                <p>$215.00</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="location">
+        <h4 class="location-title">Our location</h4>
+        <div class="google-maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10411.034011135698!2d-123.13743710517885!3d49.28097309738894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671821c149771%3A0xd64c377f2df4b19f!2sCornerstone%20International%20Community%20College%20of%20Canada%20-%20Tech%20Campus!5e0!3m2!1sen!2sca!4v1672880291765!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p><cite> Yuki &copy; 2023, All Rights Reserved </cite></p>
+    </footer>
+  </body>
+</html>
