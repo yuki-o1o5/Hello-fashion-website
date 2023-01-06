@@ -64,6 +64,8 @@ section:first-child {
 }
 .carousel-item h5 {
   font-size: 2rem;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
 .carousel-item p {
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
@@ -192,8 +194,8 @@ footer p {
     height: 800px;
   }
   .new-arrival-img {
-    width: 210px;
-    height: 210px;
+    width: 250px;
+    height: 250px;
   }
   .hiddenimg {
     display: block;
