@@ -1,6 +1,6 @@
 <h1 align="center"> Hello Fashion Website</h1>
 
-<p align="center"><Shop Hello for Women's, Men's, Kids' clothing.></p>
+<p align="center">Shop Hello for Women's, Men's, Kids' clothing.</p>
 
 ## Links
 
@@ -33,11 +33,5 @@
 
 **Yuki Kasugai**
 
-- [Profile](https://github.com/rohit19060 "Yuki Kasugai")
-- [Website](https://kingtechnologies.in "Welcome")
-
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
+- [Profile](https://github.com/yuki-o1o5 "Yuki Kasugai")
+- [Website](https://my-portfolio-liard-psi.vercel.app/ "Welcome")
